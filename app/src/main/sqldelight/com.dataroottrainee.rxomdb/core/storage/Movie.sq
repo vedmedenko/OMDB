@@ -1,0 +1,30 @@
+CREATE TABLE movie (
+    title TEXT,
+    year TEXT,
+    rated TEXT,
+    released TEXT,
+    runtime TEXT,
+    genre TEXT,
+    director TEXT,
+    writer TEXT,
+    actors TEXT,
+    plot TEXT,
+    lang TEXT,
+    country TEXT,
+    awards TEXT,
+    poster TEXT,
+    metascore TEXT,
+    imdbRating TEXT,
+    imdbVotes TEXT,
+    imdbID TEXT PRIMARY KEY,
+    type TEXT
+);
+
+select_all:
+SELECT *
+FROM movie;
+
+select_by_id:
+SELECT *
+FROM movie
+WHERE imdbID = ?;

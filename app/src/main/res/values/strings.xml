@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">OMDB</string>
+
+    <!-- Activity Labels -->
+    <string name="label_main">OMDB</string>
+    <string name="label_detail">Details</string>
+
+    <!-- Menu -->
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="home">Home</string>
+
+    <!-- Main Activity -->
+    <string name="no_movies_found">No movies found for applied query&#8230;</string>
+    <string name="no_cached_movies">No cached movies yet! Go ahead and search for some&#8230;</string>
+    <string name="query_too_short">Waiting for a query (it\'s length must be greater or equal 2)&#8230;</string>
+    <string name="snackbar_deleted_movies">Movies to be deleted: %d</string>
+    <string name="snackbar_restored_movies">Movies restored!</string>
+    <string name="movie_type_to_uppercase">%1$s%2$s</string>
+
+    <!-- Detail Activity -->
+    <string name="text_no_data">No data to display</string>
+    <string-array name="detail_fragment_titles">
+        <item>Main info</item>
+        <item>Secondary info</item>
+        <item>People &amp; Plot</item>
+        <item>Awards &amp; Ratings</item>
+    </string-array>
+
+    <!-- Dialogs -->
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_action_delete">Delete</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_error_title">Oops</string>
+    <string name="dialog_general_error_Message">There was an error making the request</string>
+    <string name="dialog_error_no_connection">Sorry, you need a connection to do that!</string>
+
+    <!-- Others -->
+    <string name="movie_card_image_view_content_description">Movie card movie image view.</string>
+    <string name="fragment_detail_image_view_content_description">Detail fragment movie image view.</string>
+    <string name="search_hint">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+</resources>
